@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F7317F4276D1EEC002FF1A8 /* VoicePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7317F3276D1EEC002FF1A8 /* VoicePlayer.swift */; };
+		7FC9FA7627689BAE000E7EAF /* OgoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9FA7527689BAE000E7EAF /* OgoApp.swift */; };
+		7FC9FA7827689BAE000E7EAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9FA7727689BAE000E7EAF /* ContentView.swift */; };
+		7FC9FA7A27689BAF000E7EAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC9FA7927689BAF000E7EAF /* Assets.xcassets */; };
+		7FC9FA7D27689BAF000E7EAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC9FA7C27689BAF000E7EAF /* Preview Assets.xcassets */; };
+		7FC9FA8727689BAF000E7EAF /* OgoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9FA8627689BAF000E7EAF /* OgoTests.swift */; };
+		7FC9FA9127689BAF000E7EAF /* OgoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9FA9027689BAF000E7EAF /* OgoUITests.swift */; };
+		7FC9FA9327689BAF000E7EAF /* OgoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9FA9227689BAF000E7EAF /* OgoUITestsLaunchTests.swift */; };
+		7FD1CDBA276A423300674727 /* OgoTitleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD1CDB9276A423300674727 /* OgoTitleImageView.swift */; };
+		7FD1CDBE276A775300674727 /* IconData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD1CDBD276A775300674727 /* IconData.swift */; };
+		7FD1CDC0276A78A400674727 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD1CDBF276A78A400674727 /* IconView.swift */; };
+		7FD1CDC2276A877E00674727 /* PersonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD1CDC1276A877E00674727 /* PersonData.swift */; };
+		7FD1CDC4276A8B4D00674727 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD1CDC3276A8B4D00674727 /* PersonView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FC9FA8327689BAF000E7EAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FC9FA6A27689BAE000E7EAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FC9FA7127689BAE000E7EAF;
+			remoteInfo = Ogo;
+		};
+		7FC9FA8D27689BAF000E7EAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FC9FA6A27689BAE000E7EAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FC9FA7127689BAE000E7EAF;
+			remoteInfo = Ogo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F7317F3276D1EEC002FF1A8 /* VoicePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicePlayer.swift; sourceTree = "<group>"; };
+		7FC9FA7227689BAE000E7EAF /* Ogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC9FA7527689BAE000E7EAF /* OgoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OgoApp.swift; sourceTree = "<group>"; };
+		7FC9FA7727689BAE000E7EAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
+		7FC9FA7927689BAF000E7EAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FC9FA7C27689BAF000E7EAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FC9FA8227689BAF000E7EAF /* OgoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OgoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC9FA8627689BAF000E7EAF /* OgoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OgoTests.swift; sourceTree = "<group>"; };
+		7FC9FA8C27689BAF000E7EAF /* OgoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OgoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC9FA9027689BAF000E7EAF /* OgoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OgoUITests.swift; sourceTree = "<group>"; };
+		7FC9FA9227689BAF000E7EAF /* OgoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OgoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7FD1CDB9276A423300674727 /* OgoTitleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OgoTitleImageView.swift; sourceTree = "<group>"; };
+		7FD1CDBD276A775300674727 /* IconData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconData.swift; sourceTree = "<group>"; };
+		7FD1CDBF276A78A400674727 /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
+		7FD1CDC1276A877E00674727 /* PersonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonData.swift; sourceTree = "<group>"; };
+		7FD1CDC3276A8B4D00674727 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FC9FA6F27689BAE000E7EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC9FA7F27689BAF000E7EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC9FA8927689BAF000E7EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FC9FA6927689BAE000E7EAF = {
+			isa = PBXGroup;
+			children = (
+				7FC9FA7427689BAE000E7EAF /* Ogo */,
+				7FC9FA8527689BAF000E7EAF /* OgoTests */,
+				7FC9FA8F27689BAF000E7EAF /* OgoUITests */,
+				7FC9FA7327689BAE000E7EAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FC9FA7327689BAE000E7EAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FC9FA7227689BAE000E7EAF /* Ogo.app */,
+				7FC9FA8227689BAF000E7EAF /* OgoTests.xctest */,
+				7FC9FA8C27689BAF000E7EAF /* OgoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FC9FA7427689BAE000E7EAF /* Ogo */ = {
+			isa = PBXGroup;
+			children = (
+				7FC9FA7527689BAE000E7EAF /* OgoApp.swift */,
+				7FC9FA7727689BAE000E7EAF /* ContentView.swift */,
+				7FD1CDBD276A775300674727 /* IconData.swift */,
+				7FD1CDC1276A877E00674727 /* PersonData.swift */,
+				7FD1CDC3276A8B4D00674727 /* PersonView.swift */,
+				7FD1CDBF276A78A400674727 /* IconView.swift */,
+				7F7317F3276D1EEC002FF1A8 /* VoicePlayer.swift */,
+				7FD1CDB9276A423300674727 /* OgoTitleImageView.swift */,
+				7FC9FA7927689BAF000E7EAF /* Assets.xcassets */,
+				7FC9FA7B27689BAF000E7EAF /* Preview Content */,
+			);
+			path = Ogo;
+			sourceTree = "<group>";
+		};
+		7FC9FA7B27689BAF000E7EAF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7FC9FA7C27689BAF000E7EAF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7FC9FA8527689BAF000E7EAF /* OgoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FC9FA8627689BAF000E7EAF /* OgoTests.swift */,
+			);
+			path = OgoTests;
+			sourceTree = "<group>";
+		};
+		7FC9FA8F27689BAF000E7EAF /* OgoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FC9FA9027689BAF000E7EAF /* OgoUITests.swift */,
+				7FC9FA9227689BAF000E7EAF /* OgoUITestsLaunchTests.swift */,
+			);
+			path = OgoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FC9FA7127689BAE000E7EAF /* Ogo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FC9FA9627689BAF000E7EAF /* Build configuration list for PBXNativeTarget "Ogo" */;
+			buildPhases = (
+				7FC9FA6E27689BAE000E7EAF /* Sources */,
+				7FC9FA6F27689BAE000E7EAF /* Frameworks */,
+				7FC9FA7027689BAE000E7EAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ogo;
+			productName = Ogo;
+			productReference = 7FC9FA7227689BAE000E7EAF /* Ogo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FC9FA8127689BAF000E7EAF /* OgoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FC9FA9927689BAF000E7EAF /* Build configuration list for PBXNativeTarget "OgoTests" */;
+			buildPhases = (
+				7FC9FA7E27689BAF000E7EAF /* Sources */,
+				7FC9FA7F27689BAF000E7EAF /* Frameworks */,
+				7FC9FA8027689BAF000E7EAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FC9FA8427689BAF000E7EAF /* PBXTargetDependency */,
+			);
+			name = OgoTests;
+			productName = OgoTests;
+			productReference = 7FC9FA8227689BAF000E7EAF /* OgoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FC9FA8B27689BAF000E7EAF /* OgoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FC9FA9C27689BAF000E7EAF /* Build configuration list for PBXNativeTarget "OgoUITests" */;
+			buildPhases = (
+				7FC9FA8827689BAF000E7EAF /* Sources */,
+				7FC9FA8927689BAF000E7EAF /* Frameworks */,
+				7FC9FA8A27689BAF000E7EAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FC9FA8E27689BAF000E7EAF /* PBXTargetDependency */,
+			);
+			name = OgoUITests;
+			productName = OgoUITests;
+			productReference = 7FC9FA8C27689BAF000E7EAF /* OgoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FC9FA6A27689BAE000E7EAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					7FC9FA7127689BAE000E7EAF = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					7FC9FA8127689BAF000E7EAF = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 7FC9FA7127689BAE000E7EAF;
+					};
+					7FC9FA8B27689BAF000E7EAF = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 7FC9FA7127689BAE000E7EAF;
+					};
+				};
+			};
+			buildConfigurationList = 7FC9FA6D27689BAE000E7EAF /* Build configuration list for PBXProject "Ogo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FC9FA6927689BAE000E7EAF;
+			productRefGroup = 7FC9FA7327689BAE000E7EAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FC9FA7127689BAE000E7EAF /* Ogo */,
+				7FC9FA8127689BAF000E7EAF /* OgoTests */,
+				7FC9FA8B27689BAF000E7EAF /* OgoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FC9FA7027689BAE000E7EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC9FA7D27689BAF000E7EAF /* Preview Assets.xcassets in Resources */,
+				7FC9FA7A27689BAF000E7EAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC9FA8027689BAF000E7EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC9FA8A27689BAF000E7EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FC9FA6E27689BAE000E7EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD1CDC2276A877E00674727 /* PersonData.swift in Sources */,
+				7FD1CDC0276A78A400674727 /* IconView.swift in Sources */,
+				7FC9FA7827689BAE000E7EAF /* ContentView.swift in Sources */,
+				7FD1CDBA276A423300674727 /* OgoTitleImageView.swift in Sources */,
+				7FD1CDC4276A8B4D00674727 /* PersonView.swift in Sources */,
+				7FD1CDBE276A775300674727 /* IconData.swift in Sources */,
+				7FC9FA7627689BAE000E7EAF /* OgoApp.swift in Sources */,
+				7F7317F4276D1EEC002FF1A8 /* VoicePlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC9FA7E27689BAF000E7EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC9FA8727689BAF000E7EAF /* OgoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC9FA8827689BAF000E7EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC9FA9327689BAF000E7EAF /* OgoUITestsLaunchTests.swift in Sources */,
+				7FC9FA9127689BAF000E7EAF /* OgoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FC9FA8427689BAF000E7EAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FC9FA7127689BAE000E7EAF /* Ogo */;
+			targetProxy = 7FC9FA8327689BAF000E7EAF /* PBXContainerItemProxy */;
+		};
+		7FC9FA8E27689BAF000E7EAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FC9FA7127689BAE000E7EAF /* Ogo */;
+			targetProxy = 7FC9FA8D27689BAF000E7EAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7FC9FA9427689BAF000E7EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FC9FA9527689BAF000E7EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FC9FA9727689BAF000E7EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ogo/Preview Content\"";
+				DEVELOPMENT_TEAM = QTD679H73U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kodataku130902.Ogo;
+				PRODUCT_NAME = Ogo;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FC9FA9827689BAF000E7EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ogo/Preview Content\"";
+				DEVELOPMENT_TEAM = QTD679H73U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kodataku130902.Ogo;
+				PRODUCT_NAME = Ogo;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FC9FA9A27689BAF000E7EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kodataku130902.OgoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ogo.app/Ogo";
+			};
+			name = Debug;
+		};
+		7FC9FA9B27689BAF000E7EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kodataku130902.OgoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ogo.app/Ogo";
+			};
+			name = Release;
+		};
+		7FC9FA9D27689BAF000E7EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kodataku130902.OgoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ogo;
+			};
+			name = Debug;
+		};
+		7FC9FA9E27689BAF000E7EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kodataku130902.OgoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ogo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FC9FA6D27689BAE000E7EAF /* Build configuration list for PBXProject "Ogo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC9FA9427689BAF000E7EAF /* Debug */,
+				7FC9FA9527689BAF000E7EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FC9FA9627689BAF000E7EAF /* Build configuration list for PBXNativeTarget "Ogo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC9FA9727689BAF000E7EAF /* Debug */,
+				7FC9FA9827689BAF000E7EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FC9FA9927689BAF000E7EAF /* Build configuration list for PBXNativeTarget "OgoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC9FA9A27689BAF000E7EAF /* Debug */,
+				7FC9FA9B27689BAF000E7EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FC9FA9C27689BAF000E7EAF /* Build configuration list for PBXNativeTarget "OgoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC9FA9D27689BAF000E7EAF /* Debug */,
+				7FC9FA9E27689BAF000E7EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FC9FA6A27689BAE000E7EAF /* Project object */;
+}
